@@ -1,5 +1,5 @@
 task :defaults do
-  set_default :ruby_version,          "2.2.3"
+  set_default :ruby_version,          "2.6.5"
   set_default :services_path,         "/etc/init.d"
   set_default :upstart_path,          "/etc/init"
   set_default :tmp_path,              "#{deploy_to}/#{shared_path}/tmp"
